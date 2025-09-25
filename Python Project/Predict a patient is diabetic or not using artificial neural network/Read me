@@ -1,0 +1,97 @@
+🧠 Predict Diabetes using Artificial Neural Network (ANN)
+
+This repository contains a Jupyter Notebook implementation of an Artificial Neural Network (ANN) model to predict whether a patient is diabetic or not based on medical diagnostic data.
+
+📌 Project Overview
+
+The goal of this project is to apply Deep Learning techniques to a real-world health dataset and classify patients as diabetic or non-diabetic.
+Key highlights:
+
+Preprocessing the dataset (handling missing values, normalization, feature scaling).
+
+Splitting the dataset into training and testing sets.
+
+Building an ANN model using TensorFlow/Keras.
+
+Training and evaluating the model on unseen data.
+
+Achieving a balance between accuracy and generalization.
+
+📊 Dataset
+
+The dataset used is the Pima Indians Diabetes Dataset, which contains medical details of female patients of Pima Indian heritage, aged 21 and above.
+
+Number of features: 8
+
+Target variable: 1 (Diabetic) or 0 (Non-Diabetic)
+
+Features include:
+
+Pregnancies
+
+Glucose level
+
+Blood Pressure
+
+Skin Thickness
+
+Insulin
+
+BMI
+
+Diabetes Pedigree Function
+
+Age
+
+⚙️ Methodology
+
+Data Preprocessing
+
+Handling missing or zero values.
+
+Normalization & feature scaling.
+
+Model Building
+
+ANN with multiple dense layers.
+
+Activation functions: ReLU & Sigmoid.
+
+Optimizer: Adam.
+
+Loss function: Binary Crossentropy.
+
+Evaluation
+
+Accuracy Score
+
+Confusion Matrix
+
+Precision, Recall, F1-Score
+
+🚀 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/diabetes-prediction-ann.git
+cd diabetes-prediction-ann
+
+
+Install required dependencies:
+
+pip install -r requirements.txt
+
+▶️ Usage
+
+Open the Jupyter Notebook:
+
+jupyter notebook "Predict a patient is diabetic or not using artificial neural network.ipynb"
+
+
+Run the cells step by step to:
+
+Load and preprocess data
+
+Train the ANN model
+
+Evaluate the results
