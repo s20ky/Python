@@ -1,0 +1,65 @@
+🧬 Predict Cancer Patient Survival using Feature Selection & Machine Learning
+
+This repository includes a Jupyter Notebook that predicts whether a patient will die from cancer or survive, based on mRNA expression data after applying feature selection techniques.
+
+📌 Project Overview
+
+The goal is to leverage bioinformatics and machine learning to improve predictions of cancer survival outcomes. High-dimensional mRNA datasets often contain thousands of features, so feature selection is critical to reduce dimensionality and improve model accuracy.
+
+Key objectives:
+
+Perform feature selection to identify the most relevant genes.
+
+Train and evaluate machine learning models for survival prediction.
+
+Compare performance across different models.
+
+📊 Dataset
+
+Type: mRNA expression dataset.
+
+Features: Thousands of gene expression levels.
+
+Target variable: death_from_cancer (Yes = 1, No = 0).
+
+⚙️ Methodology
+
+Data Preprocessing
+
+Handle missing values.
+
+Normalize gene expression levels.
+
+Feature Selection
+
+Apply statistical and machine learning-based feature selection methods.
+
+Reduce dataset dimensionality to most significant features.
+
+Model Building
+
+Train ML models (Logistic Regression, Random Forest, ANN, etc.).
+
+Hyperparameter tuning for performance optimization.
+
+Evaluation
+
+Accuracy, Precision, Recall, F1-Score.
+
+ROC-AUC curve.
+
+🚀 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/cancer-survival-prediction.git
+cd cancer-survival-prediction
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+▶️ Usage
+
+jupyter notebook "Predict the death_from_cancer after doing feature selection from this m-rna dataset.ipynb"
